@@ -22,7 +22,7 @@ const OLLAMA_API_URL = 'YOUR WEB.ngrok-free.app/v1';
         "Content-Type": "application/json"
       },
       "payload": JSON.stringify({
-        "model": "coffeedoo",
+        "model": "llama3.1",
         "messages": [
           ...conversationHistory
         ]
