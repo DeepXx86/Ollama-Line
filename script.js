@@ -37,7 +37,7 @@ function doPost(e) {
         "Content-Type": "application/json"
       },
       "payload": JSON.stringify({
-        "model": "coffeedoo",
+        "model": "llama3.1",
         "messages": [
           ...conversationHistory
         ]
